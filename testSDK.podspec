@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "testSDK"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = " 测试 SDK"
   s.description  = <<-DESC
     具体更新内容档
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/yaofen/testSDK.git", :tag => s.version.to_s }
 
   s.requires_arc = true
-  s.source_files = 'Headers/*.h'
+  s.source_files = 'testSDK.framework/*.h'
   s.ios.vendored_libraries = 'KlopaySDK'
 
 
