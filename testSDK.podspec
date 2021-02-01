@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "testSDK"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = " 测试 SDK"
   s.description  = <<-DESC
     具体更新内容档
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
   s.source_files = 'KlopaySDK.framework/*.h'
-  s.ios.s.ios.vendored_libraries  = 'KlopaySDK.framework'
+  s.ios.vendored_libraries  = 'KlopaySDK.framework'
 
 
 end
